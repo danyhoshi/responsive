@@ -2,7 +2,7 @@
 
 > Set up the project, the goal here is to master the tools and best practices about Linter and Gitflow.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./imageCapture.jpg)
 
 Additional description about the project and its features.
 
