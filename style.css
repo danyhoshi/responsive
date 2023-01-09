@@ -16,3 +16,159 @@ div {
   flex-direction: column;
   min-height: 100vh;
 }
+
+.div-col-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  min-height: 50vh;
+  background: url(image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-form {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 50vh;
+  margin: 0 auto;
+}
+
+.input-data {
+  box-sizing: border-box;
+  width: 80vw;
+  height: 6vh;
+  background: #ededed;
+  border: 1px solid #c7c7c7;
+}
+
+.button-sign-me-up {
+  box-sizing: border-box;
+  margin-top: 1.5rem;
+  width: 80vw;
+  height: 6vh;
+  color: #fff;
+  font-family: Poppins, 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 500;
+  background: #5200ff;
+  border: none;
+}
+
+.text-label {
+  font-family: Poppins, 'Courier New', Courier, monospace;
+  font-style: normal;
+  text-align: left;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.688rem;
+  color: #000;
+}
+
+.text-button {
+  font-family: Poppins, 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  text-align: center;
+  color: #fff;
+}
+
+.text-got-marketing {
+  font-family: 'Bebas Neue', cursive;
+  font-style: normal;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.text-fill-out {
+  font-family: Poppins, 'Courier New', Courier, monospace;
+  font-style: normal;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .div-col-row {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+  }
+
+  .input-data {
+    box-sizing: border-box;
+    width: 40vw;
+  }
+
+  .button-sign-me-up {
+    width: 25vw;
+  }
+
+  .text-got-marketing {
+    padding-left: 18vw;
+    padding-right: 18vw;
+  }
+}
+
+@media only screen and (min-width: 1008px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .div-col-row {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+  }
+
+  .container-form {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+  }
+
+  .container-img {
+    width: 50vw;
+    text-align: right;
+  }
+
+  .input-data {
+    width: 33vw;
+  }
+
+  .button-sign-me-up {
+    width: 14vw;
+  }
+
+  .text-got-marketing {
+    padding-right: 5vw;
+    padding-left: 5vw;
+    text-align: right;
+  }
+
+  .text-fill-out {
+    text-align: right;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
