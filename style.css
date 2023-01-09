@@ -17,7 +17,6 @@ div {
   min-height: 100vh;
 }
 
-
 .div-col-row {
   display: flex;
   flex-direction: column;
@@ -33,9 +32,9 @@ div {
   width: 100%;
   min-height: 50vh;
   background: url(image.png);
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container-form {
@@ -50,22 +49,22 @@ div {
 
 .input-data {
   box-sizing: border-box;
-  width: 80vw; 
+  width: 80vw;
   height: 6vh;
-  background: #EDEDED;
-  border: 1px solid #C7C7C7;
+  background: #ededed;
+  border: 1px solid #c7c7c7;
 }
 
 .button-sign-me-up {
   box-sizing: border-box;
   margin-top: 1.5rem;
-  width: 80vw; 
+  width: 80vw;
   height: 6vh;
-  color: #FFFFFF;
+  color: #fff;
   font-family: Poppins, 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 500;
-  background: #5200FF;
+  background: #5200ff;
   border: none;
 }
 
@@ -76,7 +75,7 @@ div {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.688rem;
-  color: #000000;
+  color: #000;
 }
 
 .text-button {
@@ -86,9 +85,9 @@ div {
   font-size: 1.125rem;
   line-height: 1.688rem;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
-  
+
 .text-got-marketing {
   font-family: 'Bebas Neue', cursive;
   font-style: normal;
@@ -96,7 +95,7 @@ div {
   padding-right: 5vw;
   font-weight: 400;
   font-size: 3rem;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .text-fill-out {
@@ -106,7 +105,7 @@ div {
   padding-right: 5vw;
   font-weight: 500;
   font-size: 1.1rem;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -118,9 +117,9 @@ div {
 
   .input-data {
     box-sizing: border-box;
-    width: 40vw; 
+    width: 40vw;
   }
-  
+
   .button-sign-me-up {
     width: 25vw;
   }
@@ -173,4 +172,3 @@ div {
     padding-right: 5vw;
   }
 }
-
